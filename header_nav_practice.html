@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=Box, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  <title>Box Model Practice</title>
+</head>
+
+<style>
+
+/* Bar + Nav-Bar Starts Here */
+
+
+body {
+
+font-family: Arial, Helvetica, sans-serif
+
+  }
+
+body {
+
+background-color: white;
+
+}
+
+
+.bar {
+
+color: white;
+background-color: #e1163c;
+border:solid 1px #e1163c;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+padding: 10px 5px 15px 210px;
+
+}
+
+.bar a {
+
+  color:white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.bar a:hover {
+
+color:#61126b;
+
+}
+
+.bar img {
+
+width: 40px;
+margin-top:0px;
+
+}
+
+.head-bar {
+
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 3px;
+
+}
+
+.head-bar a img {
+
+  width: 20px;
+  
+}
+
+.head-bar a img:hover {
+
+color:#61126b;
+
+}
+
+
+.header-nav li img {
+
+width:150px;
+margin-bottom: 10px;
+padding-left: 50px;
+
+}
+.header-nav {
+
+
+list-style: none;
+background-color: white;
+padding:0px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin:0px;
+margin-left:-100px;
+box-shadow: 1px 2px 5px lightgrey;
+overflow: auto;
+
+}
+
+.header-nav li {
+
+float:left;
+margin-left: 80px;
+text-align: center;
+
+}
+
+.header-nav li a {
+
+display:block;
+color:#61126b;
+text-decoration: none;
+font-size: 13px;
+padding-top: 18px;
+letter-spacing: 1px;
+
+}
+
+.header-nav li a:hover {
+
+color: #e1163c;
+
+
+}
+
+button {
+  
+  margin-top:0;
+  background-image: linear-gradient(#e1163c,#8d041d,rgba(114, 4, 4, 0.863));
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px white;
+  margin-right: 30px;
+
+}
+
+button:hover {
+
+  background-image: linear-gradient(#ffa4b5,#8d041d,rgba(114, 4, 4, 0.863));
+
+
+}
+
+.nav-button button a {
+
+  color:white;
+  margin:10px 5px 10px 5px;
+  padding-top: 0;
+
+}
+
+/* Banner Area Starts Here */
+
+.banner-area {
+  
+
+  width:86%;
+  height:400px;
+  padding-top: 100px;
+  padding-left: 200px;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(/img/aaron-burson-YihQdPSK9jI-unsplash.jpg);
+  background-size: 100%;
+  clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+  
+ 
+
+
+}
+
+.banner-header {
+
+
+color:#61126b;
+font-size: 60px;
+padding-top: 20px;
+padding-bottom: -10px;
+margin-bottom: 10px;
+
+
+}
+
+.banner-sub {
+
+color:#61126b;
+font-size: 20px;
+font-weight: bolder;
+margin-top:10px
+
+}
+
+.banner-button {
+
+background-image: linear-gradient(rgb(247, 165, 165),#e1163c,#e1163c);
+width: 200px;
+height: 50px;
+
+}
+
+.banner-button a {
+
+color:white;
+text-decoration: none;
+font-weight: bold;
+font-size: 16px;
+
+}
+
+.banner-button:hover {
+
+background-image: linear-gradient(#750b1f,#cc3450,#610012);
+cursor: pointer;
+
+}
+
+
+</style>
+<body>
+  
+<header>
+
+<!--- Bar + Nav Bar Starts Here -->
+<div class="bar">
+<a href="https://www.virginatlantic.com/us/en">Which of our destinations are open for travel?
+<img src="/img/145-1455604_post-clip-art.png" alt="paperplane"></a>
+</div>
+   <ul class="header-nav">
+     <li><img src="/img/virgin-atlantic-logo-large (1).svg" alt="virgin-logo"></li>
+     <li><a href="https://www.virginatlantic.com/us/en">Book</a></li>
+     <li><a href="https://www.virginatlantic.com/us/en">My Booking</a></li>
+     <li><a href="https://www.virginatlantic.com/us/en">Check In</a></li>
+     <li><a href="https://www.virginatlantic.com/us/en">Flight Status</a></li>
+     <li class="sub-nav"><a href="https://www.virginatlantic.com/us/en">Explore</a></li>
+     <li class="sub-nav"><a href="https://www.virginatlantic.com/us/en">Help</a></li>
+     <li class="sub-nav"><a href="https://www.virginatlantic.com/us/en">Flying Class</a></li>
+     <li class="nav-button"><button><a href="https://www.virginatlantic.com/us/en">Book A Flight</button></li></a>
+   </ul>
+
+<!--Header Banner Starts Here -->
+
+<div class="banner-area">
+<h1 class="banner-header">FANTASTIC PRICES</h1>
+<p class="banner-sub">Take Off To New York and BEYOND!</p>
+<button class="banner-button"><a href="https://www.virginatlantic.com/us/en">FIND FLIGHTS</button></a>
+</div>
+
+
+
+
+
+
+  </header>
+
+
+
+</body>
+</html>
